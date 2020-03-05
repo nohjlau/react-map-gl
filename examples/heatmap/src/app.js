@@ -5,7 +5,7 @@ import ControlPanel from './control-panel';
 import {json as requestJson} from 'd3-request';
 import {heatmapLayer} from './map-style';
 
-const MAPBOX_TOKEN = ''; // Set your mapbox token here
+const MAPBOX_TOKEN = 'pk.eyJ1IjoieWNob3kiLCJhIjoiY2pmOTYwdzZ5MG52dDJ3b2JycXY4ZDU5ciJ9.m9H_Mqu1b42AObg_u_tjpA'; // Set your mapbox token here
 
 function filterFeaturesByDay(featureCollection, time) {
   const date = new Date(time);
